@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+.nv__section {
+  /* border: 2px solid darkcyan; */
+  display: flex;
+  justify-content: space-between;
+  margin: 6% 7% 0 8%;
+}
+
+#welcome {
+  padding-top: 2%;
+  font-size: 1.25rem;
+}
+
+#welcome > *,
+::before,
+::after {
+  text-decoration: none;
+  list-style: none;
+  color: #28352f;
+}
+
+.menu__button {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+.menu__bar {
+  width: 1.7rem;
+  margin-top: 6%;
+  height: 4px;
+  position: relative;
+  background: #000;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+  border: 0.1mm solid white;
+}
+
+.bg__container {
+  background-image: url(/img/vec-bg-1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100vh;
+}
+
+.mn__title {
+  color: #172b4d;
+  margin: 0 auto;
+  max-width: 50vh;
+  text-align: center;
+  font-weight: bolder;
+  line-height: 3.5rem;
+  font-size: 2.7rem;
+  margin-top: 17%;
+}
+
+.mn__title > span {
+  color: #36b37e;
+}
+
+.abt__me__text {
+  margin: 8% 9%;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.social__icons {
+  display: flex;
+  justify-content: space-around;
+  top: 3rem;
+  margin: 0 auto;
+  height: 5rem;
+  align-items: center;
+  width: 50%;
+}
