@@ -53,11 +53,10 @@ body {
   margin-top: 15%;
   height: 5px;
   position: relative;
-  background: #64f1af;
+  background: #000;
   transition: all 0.3s ease-in-out;
   border-radius: 5px;
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: rgb(255, 255, 255);
+  border: 0.1mm solid white;
 }
 
 .mn__title {

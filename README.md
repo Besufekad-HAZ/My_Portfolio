@@ -115,14 +115,9 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
   cd my-folder
   git clone git@github.com:Besufekad-HAZ/My_Portfolio.git
-```
---->
+
 
 ### Install
 
@@ -153,6 +148,9 @@ Example command:
 
 To run tests, run the following command:
 
+To check Styelint error:-
+
+npx stylelint "**/*.{css,scss}"
 <!--
 Example command:
 
