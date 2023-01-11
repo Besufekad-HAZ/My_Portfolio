@@ -41,6 +41,8 @@ After you're finished please remove all the comments and instructions!
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -68,8 +70,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -91,11 +91,30 @@ After you're finished please remove all the comments and instructions!
     <li><a href="">N/A</a></li>
   </ul>
 </details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **[key_feature_1]**
+- **[key_feature_2]**
+- **[key_feature_3]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](N/A)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -115,14 +134,8 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:Besufekad-HAZ/My_Portfolio.git
-```
---->
+cd my-folder
+git clone git@github.com:Besufekad-HAZ/My_Portfolio.git
 
 ### Install
 
@@ -153,6 +166,10 @@ Example command:
 
 To run tests, run the following command:
 
+To check Styelint error:-
+
+npx stylelint "\*_/_.{css,scss}"
+
 <!--
 Example command:
 
@@ -164,6 +181,7 @@ Example command:
 ### Deployment
 
 You can deploy this project using:
+N/A yet.
 
 <!--
 Example:
@@ -189,7 +207,17 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
 
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Adding_a_desktop_version]**
+- [ ] **[Deploying_the_page_on_github]**
+- [ ] **[Adding_DOM_manipulation_with_Javascript]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -205,8 +233,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project rate it and give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -215,9 +241,7 @@ If you like this project rate it and give it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank the Microverse team for allowing us to work on this project.
+--> I would like to thank the Microverse team for allowing us to work on this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
