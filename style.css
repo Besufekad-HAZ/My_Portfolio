@@ -195,7 +195,8 @@ body {
 }
 
 .abt__me {
-  background: url(img/abt_buttom.svg) no-repeat bottom left,
+  background:
+    url(img/abt_buttom.svg) no-repeat bottom left,
     url(img/abt_top.svg) no-repeat top right;
   background-size: inherit;
   display: flex;
