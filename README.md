@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="bese_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="bese_logo.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>README</b></h3>
@@ -60,11 +60,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [My_Portfolio] <a name="about-project"></a>
+# 📖 [Besu's_Portfolio] <a name="about-project"></a>
 
 > Description
 
-**[My_Portfolio]** is my second microverse project to setup my portfolio using html and css languages.
+**[Besu's_Portfolio]** is my second microverse project to setup my portfolio using html and css languages.
 
 ## 🛠 Built With <a name="built-with">HTML and CSS</a>
 
