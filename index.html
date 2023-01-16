@@ -231,5 +231,46 @@
         </article>
       </div>
     </main>
+
+    <footer class="contact__form">
+      <div class="contact__title">
+        <h1>
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </h1>
+      </div>
+      <form class="form__collab" action="" method="POST" id="form__all">
+        <ul class="form__list">
+          <li class="form__input">
+            <label>
+              <input
+                placeholder="Full Name"
+                type="text"
+                id="name"
+                name="name"
+                maxlength="30"
+                required
+                pattern="([A-ZΆ-ΫÀ-ÖØ-Þ][A-ZΆ-ΫÀ-ÖØ-Þa-zά-ώß-öø-ÿ]{1,19} ?){1,10}"
+                onchange="storeForm()"
+              />
+            </label>
+          </li>
+
+          <li class="form__input">
+            <label>
+              <input
+                placeholder="Email address"
+                class="email_bg"
+                id="mail"
+                type="email"
+                placeholder="email@domain.com"
+                name="email"
+                required
+              />
+            </label>
+          </li>
+        </ul>
+      </form>
+    </footer>
   </body>
 </html>
