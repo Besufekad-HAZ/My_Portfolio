@@ -397,3 +397,26 @@ a:active {
   margin-left: 25%;
   width: 45%;
 }
+.social__icon {
+  display: flex;
+  justify-content: space-around;
+  top: 3rem;
+  margin: 0 auto;
+  height: 5rem;
+  align-items: center;
+  width: 50%;
+}
+.my-email{
+ 
+ font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+text-align: center;
+position: absolute;
+height: 189px;
+ width: 100%; 
+color: #42526E;
+border: black;
+}
