@@ -268,10 +268,6 @@ a:active {
 
 .lang__sec {
   margin-top: 8%;
-
-  /* gap: 1rem;
-  display: flex;
-  flex-direction: column; */
 }
 
 .lang__used {
@@ -324,6 +320,7 @@ a:active {
 
 .contact__form {
   background: url("/img/Frame.svg") no-repeat bottom right;
+  width: 100vw;
 }
 
 .contact__title {
@@ -331,50 +328,51 @@ a:active {
   margin: 0 auto;
   text-align: center;
   font-weight: 700;
-  line-height: 5rem;
-  font-size: 2rem;
+  line-height: 3.8rem;
+  font-size: 1.88rem;
   margin-top: 17%;
   width: 90%;
 }
 
 .form__collab {
-  margin: 3.625rem auto;
-  height: 60vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
 }
 
-.form__input {
+.form__list {
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+  align-items: center;
   list-style: none;
-  text-decoration: none;
-  width: 100%;
-  padding: 1rem;
-  justify-content: center;
-  margin-left: 1.2rem;
+}
+
+.form__input input {
+  width: 83%;
+  align-self: center;
+  margin: 6% 5% 2% 8.5%;
 }
 
 #name {
-  height: 6vh;
-  width: 90%;
   padding: 1rem;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
 }
 
 #mail {
-  height: 6vh;
-  width: 90%;
   padding: 1rem;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
 }
 
 .txt_area {
-  margin: 0 auto;
+  margin: 5% auto 0;
   width: 83%;
 }
 
 #msg {
-  /* border: 1px solid #000000; */
   border-radius: 4px;
   width: 100%;
   padding: 1rem;
@@ -387,16 +385,18 @@ a:active {
 }
 
 .collab__btn {
-  line-height: 24px;
   letter-spacing: 0.05em;
   text-align: center;
   color: #fff;
   background: #36b37f;
   border-radius: 4px;
-  padding: 0.75em;
+  padding: 0.7rem 0.6rem;
   margin-left: 25%;
-  width: 45%;
+  width: 53%;
+  font-size: 1rem;
+  line-height: 24px;
 }
+
 .social__icon {
   display: flex;
   justify-content: space-around;
@@ -406,17 +406,17 @@ a:active {
   align-items: center;
   width: 50%;
 }
-.my-email{
- 
- font-family: Inter, sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 32px;
-text-align: center;
-position: absolute;
-height: 189px;
- width: 100%; 
-color: #42526E;
-border: black;
+
+.my-email {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  position: absolute;
+  height: 189px;
+  width: 100%;
+  color: #42526e;
+  border: black;
 }
