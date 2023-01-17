@@ -239,7 +239,12 @@
           to chat please get in touch.
         </h1>
       </div>
-      <form class="form__collab" action="" method="POST" id="form__all">
+      <form
+        class="form__collab"
+        action="https://formspree.io/f/xknepwnz"
+        method="POST"
+        id="form__all"
+      >
         <ul class="form__list">
           <li class="form__input">
             <label>
@@ -269,6 +274,21 @@
               />
             </label>
           </li>
+          <ul class="txt_area">
+            <textarea
+              name="Message input"
+              id="msg"
+              placeholder="Enter your message here..."
+              maxlength="500"
+              required
+            ></textarea>
+            <li><p class="success_message" id="error_message"></p></li>
+            <li class="align_center">
+              <button class="collab__btn" id="fot" type="submit">
+                Get in touch
+              </button>
+            </li>
+          </ul>
         </ul>
       </form>
     </footer>

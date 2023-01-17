@@ -236,7 +236,8 @@ a:active {
 }
 
 .abt__me {
-  background: url(img/abt_buttom.svg) no-repeat bottom left,
+  background:
+    url(img/abt_buttom.svg) no-repeat bottom left,
     url(img/abt_top.svg) no-repeat top right;
   background-size: inherit;
   display: flex;
@@ -321,6 +322,10 @@ a:active {
   color: inherit;
 }
 
+.contact__form {
+  background: url("/img/Frame.svg") no-repeat bottom right;
+}
+
 .contact__title {
   color: #172b4d;
   margin: 0 auto;
@@ -361,4 +366,34 @@ a:active {
   padding: 1rem;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
+}
+
+.txt_area {
+  margin: 0 auto;
+  width: 83%;
+}
+
+#msg {
+  /* border: 1px solid #000000; */
+  border-radius: 4px;
+  width: 100%;
+  padding: 1rem;
+  height: 20vh;
+}
+
+.align_center {
+  margin: 1.8rem auto;
+  width: 83%;
+}
+
+.collab__btn {
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #fff;
+  background: #36b37f;
+  border-radius: 4px;
+  padding: 0.75em;
+  margin-left: 25%;
+  width: 45%;
 }
