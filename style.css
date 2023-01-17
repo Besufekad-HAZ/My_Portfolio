@@ -397,6 +397,30 @@ a:active {
   line-height: 24px;
 }
 
+.collab__btn:hover,
+.collab__btn:focus {
+  animation: animate 1s linear infinite;
+  cursor: pointer;
+}
+
+@keyframes animate {
+  0% {
+    box-shadow: 0 0 0 0 rgba(7, 185, 114, 0.7);
+  }
+
+  40% {
+    box-shadow: 0 0 0 30px rgba(0, 206, 180, 0);
+  }
+
+  80% {
+    box-shadow: 0 0 0 30px rgba(0, 206, 180, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 rgba(0, 206, 180, 0);
+  }
+}
+
 .social__icon {
   display: flex;
   justify-content: space-around;
