@@ -24,7 +24,7 @@ body {
 :hover,
 :active {
   text-decoration: none;
-  color: #3a4a42;
+  color: #172b4d;
   list-style: none;
 }
 
@@ -38,7 +38,7 @@ body {
 ::after {
   text-decoration: none;
   list-style: none;
-  color: #28352f;
+  color: #172b4d;
 }
 
 .menu__button {
@@ -195,7 +195,7 @@ body {
   background: #36b37f;
   border-radius: 4px;
   margin-top: 8%;
-  padding: 0.75em;
+  padding: 0.8em 0.6em;
   border: 1px solid #fff;
 }
 
@@ -268,10 +268,6 @@ a:active {
 
 .lang__sec {
   margin-top: 8%;
-
-  /* gap: 1rem;
-  display: flex;
-  flex-direction: column; */
 }
 
 .lang__used {
@@ -320,4 +316,136 @@ a:focus,
 a:active {
   text-decoration: none;
   color: inherit;
+}
+
+.contact__form {
+  background: url("/img/Frame.svg") no-repeat bottom right;
+  width: 100vw;
+}
+
+.contact__title {
+  color: #172b4d;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  line-height: 3.8rem;
+  font-size: 1.88rem;
+  margin-top: 17%;
+  width: 90%;
+}
+
+.form__collab {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.form__list {
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+  align-items: center;
+  list-style: none;
+}
+
+.form__input input {
+  width: 83%;
+  align-self: center;
+  margin: 6% 5% 2% 8.5%;
+}
+
+#name {
+  padding: 1rem;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+}
+
+#mail {
+  padding: 1rem;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+}
+
+.txt_area {
+  margin: 5% auto 0;
+  width: 83%;
+}
+
+#msg {
+  border-radius: 4px;
+  width: 100%;
+  padding: 1rem;
+  height: 20vh;
+}
+
+.align_center {
+  margin: 1.8rem auto;
+  width: 83%;
+}
+
+.collab__btn {
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #fff;
+  background: #36b37f;
+  border: #fff;
+  border-radius: 4px;
+  padding: 0.7rem 0.4rem;
+  margin-left: 25%;
+  width: 55%;
+  font-size: 1rem;
+  line-height: 24px;
+}
+
+.collab__btn:active {
+  background-color: #008552;
+  border: white;
+}
+
+.collab__btn:hover,
+.collab__btn:focus {
+  animation: animate 1s linear infinite;
+  cursor: pointer;
+}
+
+@keyframes animate {
+  0% {
+    box-shadow: 0 0 0 0 rgba(7, 185, 114, 0.7);
+  }
+
+  40% {
+    box-shadow: 0 0 0 30px rgba(0, 61, 53, 0);
+  }
+
+  80% {
+    box-shadow: 0 0 0 30px rgba(1, 47, 41, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 rgba(0, 80, 69, 0);
+  }
+}
+
+.social__icon {
+  display: flex;
+  justify-content: space-around;
+  top: 3rem;
+  margin: 0 auto;
+  height: 5rem;
+  align-items: center;
+  width: 50%;
+}
+
+.my-email {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  position: absolute;
+  height: 189px;
+  width: 100%;
+  color: #42526e;
 }

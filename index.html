@@ -231,5 +231,96 @@
         </article>
       </div>
     </main>
+
+    <footer class="contact__form">
+      <div class="contact__title">
+        <h2>
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </h2>
+      </div>
+      <form
+        class="form__collab"
+        action="https://formspree.io/f/xknepwnz"
+        method="POST"
+        id="form__all"
+      >
+        <ul class="form__list">
+          <li class="form__input">
+            <label>
+              <input
+                placeholder="Full Name"
+                type="text"
+                id="name"
+                name="name"
+                minlength="3"
+                maxlength="30"
+                required
+                pattern="([A-ZΆ-ΫÀ-ÖØ-Þ][A-ZΆ-ΫÀ-ÖØ-Þa-zά-ώß-öø-ÿ]{1,19} ?){1,10}"
+                onchange="storeForm()"
+              />
+            </label>
+          </li>
+
+          <li class="form__input">
+            <label>
+              <input
+                placeholder="Email address"
+                class="email_bg"
+                id="mail"
+                type="email"
+                placeholder="email@domain.com"
+                name="email"
+                required
+              />
+            </label>
+          </li>
+          <ul class="txt_area">
+            <textarea
+              name="Message input"
+              id="msg"
+              placeholder="Enter your message here..."
+              maxlength="500"
+              required
+            ></textarea>
+            <li class="align_center">
+              <button class="collab__btn" id="fot" type="submit">
+                Get in touch
+              </button>
+            </li>
+          </ul>
+        </ul>
+      </form>
+      <ul class="social__icon">
+        <li>
+          <a href="https://twitter.com/home" target="_blank">
+            <img src="/img/twitter.svg" alt="Twitter logo"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/feed/" target="_blank"
+            ><img src="/img/Linkedin icon.svg" alt="Linkedin logo"
+          /></a>
+        </li>
+        <li>
+          <a href="https://medium.com/" target="_blank"
+            ><img src="/img/medium.svg" alt="Medium logo"
+          /></a>
+        </li>
+        <li>
+          <a href="https://github.com/" target="_blank"
+            ><img src="/img/github.svg" alt="Github logo"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.angellist.com/" target="_blank"
+            ><img src="/img/angellist.svg" alt="Angellist logo"
+          /></a>
+        </li>
+      </ul>
+      <div class="my-email">
+        <p>Besurye@gmail.com</p>
+      </div>
+    </footer>
   </body>
 </html>
