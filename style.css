@@ -483,7 +483,7 @@ a:active {
   }
 
   .bg__container {
-    background-image: url(/img/Header-llustration-desktop.svg);
+    background-image: url(./img/Header-llustration-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
