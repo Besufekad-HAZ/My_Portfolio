@@ -71,7 +71,7 @@ body {
 }
 
 .bg__container {
-  background-image: url(/img/vec-bg-1.png);
+  background-image: url(./img/vec-bg-1.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
