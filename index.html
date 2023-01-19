@@ -30,7 +30,8 @@
     <title>Besufekad's Portfolio</title>
   </head>
   <body>
-    <header>
+    <!-- <section class="all_container"></section> -->
+    <header class="mob_header">
       <nav class="nv__section">
         <h2 id="welcome"><a href="#">Welcome</a></h2>
         <div class="menu__button">
@@ -42,8 +43,13 @@
     </header>
     <main>
       <section class="bg__container">
+        <nav class="desk__nav">
+          <a href="#">Portfolio</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </nav>
         <h1 class="mn__title">
-          Hey there. I'm Besufekad <br />
+          Hey there. I'm Besu <br />
           <span> I'm a software developer</span>
         </h1>
         <div class="abt__me__text">
@@ -80,108 +86,120 @@
             /></a>
           </li>
         </ul>
-        <div class="arrow_down">
-          <img
-            src="https://img.icons8.com/ios/45/172B4D/circled-chevron-down.png"
-            alt="circled arrow-down icon"
-          />
-        </div>
+        <img
+          class="arrow_down"
+          src="https://img.icons8.com/ios/45/172B4D/circled-chevron-down.png"
+          alt="circled arrow-down icon"
+        />
       </section>
+
       <section class="works__section">
         <div class="recent__works">
           <h2>My Recent Works</h2>
         </div>
         <div class="bar__under"></div>
-        <div class="proj__container" id="proj__1">
-          <img class="proj__img" src="img/work-1.png" alt="1st project image" />
-          <div class="proj__list">
-            <h3 class="proj__title">Multi-Post Stories Gain+Glory</h3>
-            <ul class="proj__lang">
-              <li class="bt"><a href="#">Ruby on rails</a></li>
-              <li class="bt"><a href="#">CSS</a></li>
-              <li class="bt"><a href="#">JavaScript</a></li>
-              <li class="bt"><a href="#">HTML</a></li>
-            </ul>
-            <a class="see__proj__btn btns" href="#"><span>See Project</span></a>
+        <article class="group">
+          <div class="proj__container" id="proj__1">
+            <img
+              class="proj__img"
+              src="img/work-1.png"
+              alt="1st project image"
+            />
+            <div class="proj__list">
+              <h3 class="proj__title">Multi-Post Stories Gain+Glory</h3>
+              <ul class="proj__lang">
+                <li class="bt"><a href="#">Ruby on rails</a></li>
+                <li class="bt"><a href="#">CSS</a></li>
+                <li class="bt"><a href="#">JavaScript</a></li>
+                <li class="bt"><a href="#">HTML</a></li>
+              </ul>
+              <a class="see__proj__btn" href="#"><span>See Project</span></a>
+            </div>
           </div>
-        </div>
-        <div class="proj__container" id="proj__2">
-          <img
-            class="proj__img"
-            src="img/work-2.webp"
-            alt="2nd project image"
-          />
-          <div class="proj__list">
-            <h3 class="proj__title">Multi-Post Stories Gain+Glory</h3>
-            <ul class="proj__lang">
-              <li class="bt"><a href="#">Ruby on rails</a></li>
-              <li class="bt"><a href="#">CSS</a></li>
-              <li class="bt"><a href="#">JavaScript</a></li>
-              <li class="bt"><a href="#">HTML</a></li>
-            </ul>
-            <a class="see__proj__btn btns" href="#"><span>See Project</span></a>
+          <div class="proj__container" id="proj__2">
+            <img
+              class="proj__img"
+              src="img/work-2.webp"
+              alt="2nd project image"
+            />
+            <div class="proj__list">
+              <h3 class="proj__title">Multi-Post Stories Gain+Glory</h3>
+              <ul class="proj__lang">
+                <li class="bt"><a href="#">Ruby on rails</a></li>
+                <li class="bt"><a href="#">CSS</a></li>
+                <li class="bt"><a href="#">JavaScript</a></li>
+                <li class="bt"><a href="#">HTML</a></li>
+              </ul>
+              <a class="see__proj__btn" href="#"><span>See Project</span></a>
+            </div>
           </div>
-        </div>
-        <div class="proj__container" id="proj__3">
-          <img
-            class="proj__img"
-            src="img/work-3.webp"
-            alt="3rd project image"
-          />
-          <div class="proj__list">
-            <h3 class="proj__title">Multi-Post Stories Gain+Glory</h3>
-            <ul class="proj__lang">
-              <li class="bt"><a href="#">Ruby on rails</a></li>
-              <li class="bt"><a href="#">CSS</a></li>
-              <li class="bt"><a href="#">JavaScript</a></li>
-              <li class="bt"><a href="#">HTML</a></li>
-            </ul>
-            <a class="see__proj__btn btns" href="#"><span>See Project</span></a>
+          <div class="proj__container" id="proj__3">
+            <img
+              class="proj__img"
+              src="img/work-3.webp"
+              alt="3rd project image"
+            />
+            <div class="proj__list">
+              <h3 class="proj__title">Multi-Post Stories Gain+Glory</h3>
+              <ul class="proj__lang">
+                <li class="bt"><a href="#">Ruby on rails</a></li>
+                <li class="bt"><a href="#">CSS</a></li>
+                <li class="bt"><a href="#">JavaScript</a></li>
+                <li class="bt"><a href="#">HTML</a></li>
+              </ul>
+              <a class="see__proj__btn" href="#"><span>See Project</span></a>
+            </div>
           </div>
-        </div>
-        <div class="proj__container" id="proj__4">
-          <img class="proj__img" src="img/work-4.jpg" alt="4th project image" />
-          <div class="proj__list">
-            <h3 class="proj__title">Multi-Post Stories Gain+Glory</h3>
-            <ul class="proj__lang">
-              <li class="bt"><a href="#">Ruby on rails</a></li>
-              <li class="bt"><a href="#">CSS</a></li>
-              <li class="bt"><a href="#">JavaScript</a></li>
-              <li class="bt"><a href="#">HTML</a></li>
-            </ul>
-            <a class="see__proj__btn btns" href="#"><span>See Project</span></a>
+        <!-- </article>
+        <article class="group"> -->
+          <div class="proj__container" id="proj__4">
+            <img
+              class="proj__img"
+              src="img/work-4.jpg"
+              alt="4th project image"
+            />
+            <div class="proj__list">
+              <h3 class="proj__title">Multi-Post Stories Gain+Glory</h3>
+              <ul class="proj__lang">
+                <li class="bt"><a href="#">Ruby on rails</a></li>
+                <li class="bt"><a href="#">CSS</a></li>
+                <li class="bt"><a href="#">JavaScript</a></li>
+                <li class="bt"><a href="#">HTML</a></li>
+              </ul>
+              <a class="see__proj__btn" href="#"><span>See Project</span></a>
+            </div>
           </div>
-        </div>
-        <div class="proj__container" id="proj__5">
-          <img
-            class="proj__img"
-            src="img/work-5.webp"
-            alt="5th project image"
-          />
-          <div class="proj__list">
-            <h3 class="proj__title">Multi-Post Stories Gain+Glory</h3>
-            <ul class="proj__lang">
-              <li class="bt"><a href="#">Ruby on rails</a></li>
-              <li class="bt"><a href="#">CSS</a></li>
-              <li class="bt"><a href="#">JavaScript</a></li>
-              <li class="bt"><a href="#">HTML</a></li>
-            </ul>
-            <a class="see__proj__btn btns" href="#"><span>See Project</span></a>
+          <div class="proj__container" id="proj__5">
+            <img
+              class="proj__img"
+              src="img/work-5.webp"
+              alt="5th project image"
+            />
+            <div class="proj__list">
+              <h3 class="proj__title">Multi-Post Stories Gain+Glory</h3>
+              <ul class="proj__lang">
+                <li class="bt"><a href="#">Ruby on rails</a></li>
+                <li class="bt"><a href="#">CSS</a></li>
+                <li class="bt"><a href="#">JavaScript</a></li>
+                <li class="bt"><a href="#">HTML</a></li>
+              </ul>
+              <a class="see__proj__btn" href="#"><span>See Project</span></a>
+            </div>
           </div>
-        </div>
-        <div class="proj__container" id="proj__6">
-          <img class="proj__img" src="img/work-6.jpg" alt="6 project image" />
-          <div class="proj__list">
-            <h3 class="proj__title">Multi-Post Stories Gain+Glory</h3>
-            <ul class="proj__lang">
-              <li class="bt"><a href="#">Ruby on rails</a></li>
-              <li class="bt"><a href="#">CSS</a></li>
-              <li class="bt"><a href="#">JavaScript</a></li>
-              <li class="bt"><a href="#">HTML</a></li>
-            </ul>
-            <a class="see__proj__btn btns" href="#"><span>See Project</span></a>
+          <div class="proj__container" id="proj__6">
+            <img class="proj__img" src="img/work-6.jpg" alt="6 project image" />
+            <div class="proj__list">
+              <h3 class="proj__title">Multi-Post Stories Gain+Glory</h3>
+              <ul class="proj__lang">
+                <li class="bt"><a href="#">Ruby on rails</a></li>
+                <li class="bt"><a href="#">CSS</a></li>
+                <li class="bt"><a href="#">JavaScript</a></li>
+                <li class="bt"><a href="#">HTML</a></li>
+              </ul>
+              <a class="see__proj__btn" href="#"><span>See Project</span></a>
+            </div>
           </div>
-        </div>
+        </article>
       </section>
       <section class="abt__me">
         <div class="abt__me__title"><h2>About me</h2></div>
@@ -199,7 +217,7 @@
       <div class="lang__sec">
         <article class="lang__used">
           <img src="img/lang_icon.svg" alt="Languages used icon" />
-          <h3 class="proj__title">Languages</h3>
+          <h3 class="proj__title mid_screen">Languages</h3>
           <ul class="lang__list">
             <li><a class="bt__2" href="#">JavaScript</a></li>
             <li><a class="bt__2" href="#">Ruby on rails</a></li>
@@ -209,7 +227,7 @@
         </article>
         <article class="lang__used">
           <img src="img/icon-frameworks.svg" alt="Frameworks used icon" />
-          <h3 class="proj__title">Frameworks</h3>
+          <h3 class="proj__title mid_screen">Frameworks</h3>
           <ul class="lang__list">
             <li><a href="#">Bootstrap</a></li>
             <li><a href="#">Ruby on rails</a></li>
@@ -220,7 +238,7 @@
         </article>
         <article class="lang__used">
           <img src="img/icon-skills.svg" alt="Skills icon" />
-          <h3 class="proj__title">Skills</h3>
+          <h3 class="proj__title mid_screen">Skills</h3>
           <ul class="lang__list">
             <li><a href="#">Codekit</a></li>
             <li><a href="#">GitHub</a></li>
@@ -233,91 +251,111 @@
     </main>
 
     <footer class="contact__form">
-      <div class="contact__title">
-        <h2>
-          I'm always interested in hearing about new projects, so if you'd like
-          to chat please get in touch.
-        </h2>
-      </div>
-      <form
-        class="form__collab"
-        action="https://formspree.io/f/xknepwnz"
-        method="POST"
-        id="form__all"
-      >
-        <ul class="form__list">
-          <li class="form__input">
-            <label>
-              <input
-                placeholder="Full Name"
-                type="text"
-                id="name"
-                name="name"
-                minlength="3"
-                maxlength="30"
-                required
-                pattern="([A-ZΆ-ΫÀ-ÖØ-Þ][A-ZΆ-ΫÀ-ÖØ-Þa-zά-ώß-öø-ÿ]{1,19} ?){1,10}"
-                onchange="storeForm()"
-              />
-            </label>
-          </li>
+      <section class="desk__contact__wrap">
+        <div class="contact__title">
+          <h2>
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.
+          </h2>
+        </div>
+        <div class="form__sec">
+          <form
+            class="form__collab"
+            action="https://formspree.io/f/xknepwnz"
+            method="POST"
+            id="form__all"
+          >
+            <ul class="form__list">
+              <li class="form__input">
+                <ul class="name__Full">
+                  <li class="name">
+                    <input
+                      placeholder="First Name"
+                      type="text"
+                      id="f_name"
+                      name="name"
+                      minlength="3"
+                      maxlength="30"
+                      required
+                      pattern="([A-ZΆ-ΫÀ-ÖØ-Þ][A-ZΆ-ΫÀ-ÖØ-Þa-zά-ώß-öø-ÿ]{1,19} ?){1,10}"
+                      onchange="storeForm()"
+                    />
+                  </li>
+                  <li class="name">
+                    <input
+                      placeholder="Last Name"
+                      type="text"
+                      id="l_name"
+                      name="name"
+                      minlength="3"
+                      maxlength="30"
+                      required
+                      pattern="([A-ZΆ-ΫÀ-ÖØ-Þ][A-ZΆ-ΫÀ-ÖØ-Þa-zά-ώß-öø-ÿ]{1,19} ?){1,10}"
+                      onchange="storeForm()"
+                    />
+                  </li>
+                </ul>
+              </li>
 
-          <li class="form__input">
-            <label>
-              <input
-                placeholder="Email address"
-                class="email_bg"
-                id="mail"
-                type="email"
-                placeholder="email@domain.com"
-                name="email"
-                required
-              />
-            </label>
+              <li class="form__input">
+                <label>
+                  <input
+                    class="email_bg"
+                    id="mail"
+                    type="email"
+                    placeholder="email@domain.com"
+                    name="email"
+                    required
+                  />
+                </label>
+              </li>
+              <ul class="txt_area">
+                <li><textarea
+                  name="Message input"
+                  id="msg"
+                  placeholder="Enter your message here..."
+                  maxlength="500"
+                  required
+                ></textarea></li>
+                <li class="align_center">
+                  <button class="collab__btn" id="fot" type="submit">
+                    Get in touch
+                  </button>
+                </li>
+              </ul>
+            </ul>
+          </form>
+        </div>
+      </section>
+      <div class="social-contain">
+        <ul class="social__icon desk_social">
+          <li>
+            <a href="https://twitter.com/home" target="_blank">
+              <img src="/img/twitter.svg" alt="Twitter logo"
+            /></a>
           </li>
-          <ul class="txt_area">
-            <textarea
-              name="Message input"
-              id="msg"
-              placeholder="Enter your message here..."
-              maxlength="500"
-              required
-            ></textarea>
-            <li class="align_center">
-              <button class="collab__btn" id="fot" type="submit">
-                Get in touch
-              </button>
-            </li>
-          </ul>
+          <li>
+            <a href="https://www.linkedin.com/feed/" target="_blank"
+              ><img src="/img/Linkedin icon.svg" alt="Linkedin logo"
+            /></a>
+          </li>
+          <li>
+            <a href="https://medium.com/" target="_blank"
+              ><img src="/img/medium.svg" alt="Medium logo"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/" target="_blank"
+              ><img src="/img/github.svg" alt="Github logo"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.angellist.com/" target="_blank"
+              ><img src="/img/angellist.svg" alt="Angellist logo"
+            /></a>
+          </li>
         </ul>
-      </form>
-      <ul class="social__icon">
-        <li>
-          <a href="https://twitter.com/home" target="_blank">
-            <img src="/img/twitter.svg" alt="Twitter logo"
-          /></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/feed/" target="_blank"
-            ><img src="/img/Linkedin icon.svg" alt="Linkedin logo"
-          /></a>
-        </li>
-        <li>
-          <a href="https://medium.com/" target="_blank"
-            ><img src="/img/medium.svg" alt="Medium logo"
-          /></a>
-        </li>
-        <li>
-          <a href="https://github.com/" target="_blank"
-            ><img src="/img/github.svg" alt="Github logo"
-          /></a>
-        </li>
-        <li>
-          <a href="https://www.angellist.com/" target="_blank"
-            ><img src="/img/angellist.svg" alt="Angellist logo"
-          /></a>
-        </li>
-      </ul>
+      </div>
       <div class="my-email">
         <p>Besurye@gmail.com</p>
       </div>
