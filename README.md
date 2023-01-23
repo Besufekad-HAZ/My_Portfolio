@@ -108,7 +108,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](N/A)
+- [Live Demo Link](https://besufekad-haz.github.io/My_Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
