@@ -201,9 +201,9 @@ Example:
 
 👤 **Besufekad Alemu**
 
-- GitHub: [@githubhandle](https://github.com/Besufekad-HAZ)
-- Twitter: [@twitterhandle](https://twitter.com/BesufekadAlemu7)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/besura)
+- GitHub: [@Besufekad-HAZ](https://github.com/Besufekad-HAZ)
+- Twitter: [@BesufekadAlemu7](https://twitter.com/BesufekadAlemu7)
+- LinkedIn: [@besura](www.linkedin.com/in/besura)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
