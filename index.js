@@ -17,3 +17,10 @@ document.querySelectorAll(".nv__item").forEach((n) =>
     mob__nav.classList.toggle("active");
   })
 );
+
+
+hamburger2.addEventListener("click", () => {
+    hamburger.style.display = "block";
+    hamburger.classList.remove("active");
+    mob__nav.classList.toggle("active");
+  });
