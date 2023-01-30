@@ -110,6 +110,7 @@ body {
   border-bottom-right-radius: 48px;
   box-shadow: 0 140px 2px 1px rgba(50, 48, 48, 0.685);
   z-index: 1;
+  transition: 0.4s ease-in-out;
 }
 
 .mob__list {
@@ -698,12 +699,9 @@ a:active {
   }
 
   .group {
-    /* display: grid; */
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
     display: grid;
-
-    /* grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); */
   }
 
   .abt__me {
@@ -832,8 +830,6 @@ a:active {
     width: 90%;
     align-self: center;
     margin: 1% 5%;
-
-    /* height: 40vh; */
   }
 
   .align_center {
