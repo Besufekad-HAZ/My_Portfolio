@@ -49,16 +49,6 @@ body {
   color: #172b4d;
 }
 
-.menu__button {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-}
-
 .menu__bar {
   width: 1.7rem;
   margin-top: 6%;
@@ -68,6 +58,74 @@ body {
   transition: all 0.3s ease-in-out;
   border-radius: 5px;
   border: 0.1mm solid white;
+}
+
+/* Hamburger Menu code starts here */
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+.hamburger2 .menu__bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger2 .menu__bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  color: #67798e;
+}
+
+.hamburger2 .menu__bar:nth-child(3) {
+  transform: translateY(-5px) rotate(-45deg);
+  color: #67798e;
+}
+
+.hamburger2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+.mob__nav__menu {
+  top: 0;
+  position: fixed;
+  left: -100%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2.5rem;
+  background-color: #fff;
+  width: 100%;
+  min-height: 90%;
+  padding-top: 33px;
+  padding-left: 7%;
+  border-bottom-left-radius: 48px;
+  border-bottom-right-radius: 48px;
+  box-shadow: 0 140px 2px 1px rgba(50, 48, 48, 0.685);
+  z-index: 1;
+  transition: 0.4s ease-in-out;
+}
+
+.mob__list {
+  margin-top: 70px;
+  line-height: 4rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.nv__item:hover {
+  color: #11a55b;
+}
+
+.mob__nav__menu.active {
+  left: 0;
 }
 
 .bg__container {
@@ -82,11 +140,9 @@ body {
 
 .mn__title {
   color: #172b4d;
-
-  /* width: 50vh; */
   font-weight: bolder;
   line-height: 3.5rem;
-  font-size: 5.6vh;
+  font-size: 3.2rem;
   margin: 17% 10% 1px;
   align-self: center;
   text-align: center;
@@ -328,6 +384,10 @@ a:active {
   color: inherit;
 }
 
+.mob__nav__menu li a {
+  color: #3a4a42;
+}
+
 .contact__form {
   background: url("/img/Frame.svg") no-repeat bottom right;
   width: 100vw;
@@ -476,6 +536,8 @@ a:active {
   width: 100%;
   color: #42526e;
 }
+
+/* Desktop Version Starts Here */
 
 @media only screen and (min-width: 768px) {
   .mob_header {
@@ -630,13 +692,16 @@ a:active {
     margin-top: 1rem;
   }
 
+  .desk__nav a:hover {
+    transition-duration: 1s;
+    color: #172b4d;
+    border-bottom: 2px solid black;
+  }
+
   .group {
-    /* display: grid; */
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
     display: grid;
-
-    /* grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); */
   }
 
   .abt__me {
@@ -765,8 +830,6 @@ a:active {
     width: 90%;
     align-self: center;
     margin: 1% 5%;
-
-    /* height: 40vh; */
   }
 
   .align_center {
