@@ -962,10 +962,3 @@ a:active {
 
 /* added the stuff below */
 
-#chk__message.active {
-  display: block;
-  padding: 0 0 2% 5%;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  animation: blink-animation 1s steps(5, start) infinite;
-  -webkit-animation: blink-animation 1s steps(5, start) infinite;
-}
