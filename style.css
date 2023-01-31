@@ -454,6 +454,30 @@ a:active {
   border-radius: 4px;
 }
 
+#chk__message {
+  display: none;
+}
+
+#chk__message.active {
+  display: block;
+  padding: 0 0 2% 5%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
 .txt_area {
   margin: 5% auto 0;
   width: 83%;
@@ -824,30 +848,6 @@ a:active {
     width: 90%;
     align-self: center;
     margin: 2.5% 2% 3% 5%;
-  }
-
-  #chk__message {
-    display: none;
-  }
-
-  #chk__message.active {
-    display: block;
-    padding: 0 0 2% 5%;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    animation: blink-animation 1s steps(5, start) infinite;
-    -webkit-animation: blink-animation 1s steps(5, start) infinite;
-  }
-
-  @keyframes blink-animation {
-    to {
-      visibility: hidden;
-    }
-  }
-
-  @-webkit-keyframes blink-animation {
-    to {
-      visibility: hidden;
-    }
   }
 
   .txt_area {
