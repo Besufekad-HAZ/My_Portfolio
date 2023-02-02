@@ -100,7 +100,7 @@ for (let i = 0; projectsList.length; i++) {
     ModalSeeLive.setAttribute('href', projectsList[i].linkToLive)
     ModalSeeSource.setAttribute('href', projectsList[i].linkToSource)
     Modal.style.display = 'flex'
-    document.querySelector('main').style.display = 'none'
+    // document.querySelector('main').style.display = 'none'
   })
 }
 

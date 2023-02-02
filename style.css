@@ -302,7 +302,8 @@ a:active {
 }
 
 .abt__me {
-  background: url(img/abt_buttom.svg) no-repeat bottom left,
+  background:
+    url(img/abt_buttom.svg) no-repeat bottom left,
     url(img/abt_top.svg) no-repeat top right;
   background-size: inherit;
   display: flex;
@@ -565,7 +566,7 @@ a:active {
 .modal__container {
   width: 100vw;
   height: 100%;
-  background: #8193af;
+  background: #c1c7d0;
   position: fixed;
   top: 0;
   display: none;
@@ -576,7 +577,7 @@ a:active {
   width: 90%;
   margin: 5% auto 0;
   align-items: center;
-  padding-top: 1%;
+  padding: 1% 0.5%;
   background: white;
   display: flex;
   flex-direction: column;
@@ -670,7 +671,7 @@ a:active {
   color: #344563;
   font-weight: 400;
   line-height: 3vh;
-  font-size: calc(12px + 0.390625vw);
+  font-size: calc(12px + 0.39vw);
   width: 93%;
   overflow-y: hidden;
   margin-top: 3%;
@@ -703,7 +704,8 @@ a:active {
     font-size: 3.8em;
     line-height: 1em;
     letter-spacing: 1px;
-    animation: typewriter 4s steps(80) 2s 1 normal both,
+    animation:
+      typewriter 4s steps(80) 2s 1 normal both,
       blinkTextCursor 500ms infinite;
     white-space: nowrap;
     margin-right: 13%;
@@ -844,8 +846,9 @@ a:active {
   }
 
   .abt__me {
-    background: url(img/illustration-about-me-2-desktop.svg) no-repeat bottom
-        left,
+    background:
+      url(img/illustration-about-me-2-desktop.svg) no-repeat bottom
+      left,
       url(img/illustration\ about\ me\ desktop.svg) no-repeat top right;
     display: flex;
     flex-direction: column;
@@ -900,7 +903,8 @@ a:active {
   }
 
   .desk__contact__wrap {
-    background: url(img/Frame-bottom-1.svg) no-repeat bottom left,
+    background:
+      url(img/Frame-bottom-1.svg) no-repeat bottom left,
       url(img/Frame_bottom_1.5.svg) no-repeat bottom,
       url(img/Frame-bottom-2.svg) no-repeat bottom right;
     background-position: 0% 98%, 20% 95%, 100% 100%;
@@ -1009,21 +1013,25 @@ a:active {
   .modal__container {
     width: 100vw;
     height: 100%;
-    background: #8193af;
+    background: #bcc2cb;
     position: fixed;
     top: 0;
     display: none;
-    backdrop-filter: blur(70px);
+    backdrop-filter: blur(30px);
+    mix-blend-mode: hard-light;
   }
+
+  /* mix-blend-mode:multiply; optional effect */
 
   .modal__box {
     width: 70%;
     margin: 10% auto 20%;
     align-items: center;
-    padding-top: 1%;
-    background: white;
+    padding: 1%;
+    background: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
+    height: 80vmax;
   }
 
   .close__modal {
@@ -1032,7 +1040,7 @@ a:active {
     padding: 5px 9px;
     border-radius: 0.5rem;
     display: flex;
-    width: 6%;
+    width: calc(4.5vw);
   }
 
   .mob_close {
@@ -1107,8 +1115,8 @@ a:active {
   .modal__description {
     color: #344563;
     font-weight: 400;
-    line-height: 1.7rem;
-    font-size: 1rem;
+    line-height: calc(1.8rem + 0.5vw);
+    font-size: calc(0.8rem + 0.5vw);
     width: 95%;
     overflow-y: hidden;
     margin-top: 1%;
@@ -1189,6 +1197,13 @@ a:active {
 
   .modal__box {
     width: 70%;
+    margin: 8% auto;
+    align-items: center;
+    padding: 1%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    height: 85vmax;
   }
 
   .close__modal {
