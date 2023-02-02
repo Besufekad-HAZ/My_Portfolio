@@ -14,5 +14,3 @@ contactForm.addEventListener('input', () => {
   }
   localStorage.setItem('userData', JSON.stringify(formData))
 })
-
-// add some comments 
