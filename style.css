@@ -302,8 +302,7 @@ a:active {
 }
 
 .abt__me {
-  background:
-    url(img/abt_buttom.svg) no-repeat bottom left,
+  background: url(img/abt_buttom.svg) no-repeat bottom left,
     url(img/abt_top.svg) no-repeat top right;
   background-size: inherit;
   display: flex;
@@ -704,8 +703,7 @@ a:active {
     font-size: 3.8em;
     line-height: 1em;
     letter-spacing: 1px;
-    animation:
-      typewriter 4s steps(80) 2s 1 normal both,
+    animation: typewriter 4s steps(80) 2s 1 normal both,
       blinkTextCursor 500ms infinite;
     white-space: nowrap;
     margin-right: 13%;
@@ -846,9 +844,8 @@ a:active {
   }
 
   .abt__me {
-    background:
-      url(img/illustration-about-me-2-desktop.svg) no-repeat bottom
-      left,
+    background: url(img/illustration-about-me-2-desktop.svg) no-repeat bottom
+        left,
       url(img/illustration\ about\ me\ desktop.svg) no-repeat top right;
     display: flex;
     flex-direction: column;
@@ -903,8 +900,7 @@ a:active {
   }
 
   .desk__contact__wrap {
-    background:
-      url(img/Frame-bottom-1.svg) no-repeat bottom left,
+    background: url(img/Frame-bottom-1.svg) no-repeat bottom left,
       url(img/Frame_bottom_1.5.svg) no-repeat bottom,
       url(img/Frame-bottom-2.svg) no-repeat bottom right;
     background-position: 0% 98%, 20% 95%, 100% 100%;
@@ -1022,14 +1018,12 @@ a:active {
 
   .modal__box {
     width: 70%;
-    margin: 0 auto;
+    margin: 10% auto 20%;
     align-items: center;
     padding-top: 1%;
     background: white;
     display: flex;
     flex-direction: column;
-    height: 95vh;
-    overflow-y: scroll;
   }
 
   .close__modal {
@@ -1054,34 +1048,36 @@ a:active {
 
   .desk__btn__title {
     display: flex;
-    margin-top: 2%;
+    margin-top: 1%;
     width: 95%;
     justify-content: space-between;
     margin-bottom: 0;
   }
 
   .modal__title {
-    font-size: 1.8rem;
+    font-size: calc(2.3vw + 0.390625vw);
     font-weight: 700;
-    line-height: 4.2vh;
+    line-height: 4vw;
     max-width: 60%;
+    overflow-y: hidden;
   }
 
   .modal__btn__sec {
     width: 40%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
   }
 
   .color_btn_modal {
     border-radius: 8px;
     background: #36b37e;
     color: #fff;
-    font-size: 95%;
+    font-size: calc(1.2vw + 0.390625vw);
     font-weight: 500;
     border: 1px solid white;
     display: flex;
-    padding: 0.6rem 0.6rem;
+    padding: 0.4rem 0.6rem;
     align-items: center;
     gap: 0.3rem;
     height: 3rem;
@@ -1203,5 +1199,46 @@ a:active {
     margin-bottom: 1%;
     display: flex;
     width: 6vw;
+  }
+
+  .desk__btn__title {
+    display: flex;
+    margin-top: 3%;
+    width: 95%;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+
+  .lang__modal {
+    display: flex;
+    padding: 0 2%;
+    background-color: #fff;
+    width: 80%;
+    align-items: center;
+    margin-right: 19%;
+    margin-top: 4%;
+    gap: 3%;
+    overflow-y: hidden;
+  }
+
+  .lang__modal li {
+    color: #344563;
+    background-color: #ebf0ee;
+    text-align: center;
+    padding: 0.6rem 0.8rem;
+    font-size: 13px;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+
+  .modal__description {
+    color: #344563;
+    font-weight: 400;
+    line-height: 1.8rem;
+    font-size: 1.05rem;
+    width: 95%;
+    overflow-y: hidden;
+    margin-top: 3%;
+    text-align: justify;
   }
 }
