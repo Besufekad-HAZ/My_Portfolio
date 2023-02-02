@@ -109,107 +109,14 @@
           <h2>My Recent Works</h2>
         </div>
         <div class="bar__under"></div>
+
         <article class="group">
-          <div class="proj__container" id="proj__1">
-            <img
-              class="proj__img"
-              src="img/work-1.png"
-              alt="1st project image"
-            />
-            <div class="proj__list">
-              <h3 class="proj__title">Multi-Post Stories Gain+Glory</h3>
-              <ul class="proj__lang">
-                <li class="bt"><a href="#">Ruby on rails</a></li>
-                <li class="bt"><a href="#">CSS</a></li>
-                <li class="bt"><a href="#">JavaScript</a></li>
-                <li class="bt"><a href="#">HTML</a></li>
-              </ul>
-              <a class="see__proj__btn" href="#"><span>See Project</span></a>
-            </div>
-          </div>
-          <div class="proj__container" id="proj__2">
-            <img
-              class="proj__img"
-              src="img/work-2.webp"
-              alt="2nd project image"
-            />
-            <div class="proj__list">
-              <h3 class="proj__title">Multi-Post Stories Gain+Glory</h3>
-              <ul class="proj__lang">
-                <li class="bt"><a href="#">Ruby on rails</a></li>
-                <li class="bt"><a href="#">CSS</a></li>
-                <li class="bt"><a href="#">JavaScript</a></li>
-                <li class="bt"><a href="#">HTML</a></li>
-              </ul>
-              <a class="see__proj__btn" href="#"><span>See Project</span></a>
-            </div>
-          </div>
-          <div class="proj__container" id="proj__3">
-            <img
-              class="proj__img"
-              src="img/work-3.webp"
-              alt="3rd project image"
-            />
-            <div class="proj__list">
-              <h3 class="proj__title">Multi-Post Stories Gain+Glory</h3>
-              <ul class="proj__lang">
-                <li class="bt"><a href="#">Ruby on rails</a></li>
-                <li class="bt"><a href="#">CSS</a></li>
-                <li class="bt"><a href="#">JavaScript</a></li>
-                <li class="bt"><a href="#">HTML</a></li>
-              </ul>
-              <a class="see__proj__btn" href="#"><span>See Project</span></a>
-            </div>
-          </div>
-          <!-- </article>
-        <article class="group"> -->
-          <div class="proj__container" id="proj__4">
-            <img
-              class="proj__img"
-              src="img/work-4.jpg"
-              alt="4th project image"
-            />
-            <div class="proj__list">
-              <h3 class="proj__title">Multi-Post Stories Gain+Glory</h3>
-              <ul class="proj__lang">
-                <li class="bt"><a href="#">Ruby on rails</a></li>
-                <li class="bt"><a href="#">CSS</a></li>
-                <li class="bt"><a href="#">JavaScript</a></li>
-                <li class="bt"><a href="#">HTML</a></li>
-              </ul>
-              <a class="see__proj__btn" href="#"><span>See Project</span></a>
-            </div>
-          </div>
-          <div class="proj__container" id="proj__5">
-            <img
-              class="proj__img"
-              src="img/work-5.webp"
-              alt="5th project image"
-            />
-            <div class="proj__list">
-              <h3 class="proj__title">Multi-Post Stories Gain+Glory</h3>
-              <ul class="proj__lang">
-                <li class="bt"><a href="#">Ruby on rails</a></li>
-                <li class="bt"><a href="#">CSS</a></li>
-                <li class="bt"><a href="#">JavaScript</a></li>
-                <li class="bt"><a href="#">HTML</a></li>
-              </ul>
-              <a class="see__proj__btn" href="#"><span>See Project</span></a>
-            </div>
-          </div>
-          <div class="proj__container" id="proj__6">
-            <img class="proj__img" src="img/work-6.jpg" alt="6 project image" />
-            <div class="proj__list">
-              <h3 class="proj__title">Multi-Post Stories Gain+Glory</h3>
-              <ul class="proj__lang">
-                <li class="bt"><a href="#">Ruby on rails</a></li>
-                <li class="bt"><a href="#">CSS</a></li>
-                <li class="bt"><a href="#">JavaScript</a></li>
-                <li class="bt"><a href="#">HTML</a></li>
-              </ul>
-              <a class="see__proj__btn" href="#"><span>See Project</span></a>
-            </div>
-          </div>
+          <div class="proj__container" id="proj__1"></div>
+          <div class="proj__container" id="proj__2"></div>
+          <div class="proj__container" id="proj__3"></div>
+          <div class="proj__container" id="proj__4"></div>
+          <div class="proj__container" id="proj__5"></div>
+          <div class="proj__container" id="proj__6"></div>
         </article>
       </section>
       <section class="abt__me" id="About_sec">
@@ -284,6 +191,7 @@
                       placeholder="First Name"
                       type="text"
                       id="f_name"
+                      class="fullName"
                       name="name"
                       minlength="3"
                       maxlength="30"
@@ -297,6 +205,7 @@
                       placeholder="Last Name"
                       type="text"
                       id="l_name"
+                      class="fullName"
                       name="name"
                       minlength="3"
                       maxlength="30"
@@ -379,8 +288,75 @@
         <p>Besurye@gmail.com</p>
       </div>
     </footer>
+
+    <!-- Modal Section Starts here -->
+
+    <div class="modal__container">
+      <div class="modal__box">
+        <img
+          onclick="closeModal()"
+          class="close__modal"
+          src="./img/Close-btn.png"
+          alt="closebutton"
+        />
+        <img
+          onclick="closeModal()"
+          class="mob_close"
+          src="./img/mob_close.png"
+          alt="closebutton 2"
+        />
+        <img class="modal__image" alt="Project Popup Modal Image" />
+        <div class="desk__btn__title">
+          <h2 class="modal__title"></h2>
+          <div class="modal__btn__sec">
+            <a class="seelive"
+              ><button type="button" class="color_btn_modal">
+                <p>See live</p>
+                <img
+                  class="button-image"
+                  src="./img/link.svg"
+                  alt="Link"
+                /></button
+            ></a>
+            <a class="seesource"
+              ><button type="button" class="color_btn_modal">
+                <p>See source</p>
+                <img
+                  class="button-image"
+                  src="./img/Gihub.png"
+                  alt="github"
+                /></button
+            ></a>
+          </div>
+        </div>
+        <ul class="lang__modal"></ul>
+        <p class="modal__description"></p>
+        <div class="mob">
+          <a class="seelive"
+            ><button type="button" class="color_btn_modal">
+              <p>See live</p>
+              <img
+                class="button-image"
+                src="./img/link.svg"
+                alt="Link"
+              /></button
+          ></a>
+          <a class="seesource"
+            ><button type="button" class="color_btn_modal">
+              <p>See source</p>
+              <img
+                class="button-image"
+                src="./img/Gihub.png"
+                alt="github"
+              /></button
+          ></a>
+        </div>
+      </div>
+    </div>
+
     <script src="./index.js"></script>
     <script src="./Modal.js"></script>
     <script src="./Validation.js"></script>
+    <script src="./file-storage.js"></script>
   </body>
 </html>
