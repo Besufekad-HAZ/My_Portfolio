@@ -1198,23 +1198,10 @@ a:active {
   .close__modal {
     top: 10px;
     margin-left: 88%;
-    padding:0.313rem 0.563rem;
+    padding: 0.313rem 0.563rem;
     border-radius: 0.5rem;
     margin-bottom: 1%;
     display: flex;
     width: 6vw;
   }
-}
-
-/* add comment  */
-/* add something */
-/* ofj[jdaoogja*/
-.close__modal {
-  top: 10px;
-  margin-left: 88%;
-  padding:0.313rem 0.563rem;
-  border-radius: 0.5rem;
-  margin-bottom: 1%;
-  display: flex;
-  width: 6vw;
 }

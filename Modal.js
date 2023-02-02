@@ -95,7 +95,7 @@ for (let i = 0; projectsList.length; i++) {
     })
     ModalTitle.innerHTML = projectsList[i].projectTitle
     ModalTechnology.innerHTML = modalTech
-    ModalImage.src = 'img/' + projectsList[i].featuredImage
+    ModalImage.src = './img/' + projectsList[i].featuredImage
     ModalDescription.innerHTML = projectsList[i].description
     ModalSeeLive.setAttribute('href', projectsList[i].linkToLive)
     ModalSeeSource.setAttribute('href', projectsList[i].linkToSource)
