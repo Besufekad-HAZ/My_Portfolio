@@ -14,3 +14,15 @@ contactForm.addEventListener('input', () => {
   }
   localStorage.setItem('userData', JSON.stringify(formData))
 })
+
+const object = localStorage.getItem('userData')
+const getValue = JSON.parse(object)
+
+window.addEventListener('load', () => {
+  if (localStorage.getItem('userData')) {
+    document.getElementById('f_name').value = getValue.firstName
+    document.getElementById('l_name').value = getValue.lastName
+    document.getElementById('mail').value = getValue.userEmail
+    document.getElementById('msg').value = getValue.message
+  }
+})
