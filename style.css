@@ -561,6 +561,123 @@ a:active {
   color: #42526e;
 }
 
+/* Mobile Modal Pop-up section start here */
+
+.modal__container {
+  width: 100vw;
+  height: 100%;
+  background: #8193af;
+  position: fixed;
+  top: 0;
+  display: none;
+  backdrop-filter: blur(70px);
+}
+
+.modal__box {
+  width: 90%;
+  margin: 5% auto 0;
+  align-items: center;
+  padding-top: 1%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  height: 95vh;
+}
+
+.close__modal {
+  display: none;
+}
+
+.mob_close {
+  margin-top: 0.2rem;
+  margin-left: 77%;
+  border-radius: 0.5rem;
+  margin-bottom: 1%;
+  position: fixed;
+  padding: 0;
+}
+
+.modal__image {
+  width: 95%;
+  border-radius: 0.5rem;
+  margin-top: 2%;
+  height: 30vh;
+}
+
+.desk__btn__title {
+  display: flex;
+  margin-top: 5%;
+  width: 94%;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.modal__title {
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 5vh;
+  max-width: 80%;
+}
+
+.modal__btn__sec {
+  display: none;
+}
+
+.mob {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 5%;
+  gap: 5%;
+}
+
+.color_btn_modal {
+  border-radius: 8px;
+  background: #36b37e;
+  color: #fff;
+  font-size: 95%;
+  font-weight: 500;
+  border: 1px solid white;
+  display: flex;
+  padding: 0.6rem 0.6rem;
+  align-items: center;
+  gap: 0.3rem;
+  height: 3rem;
+}
+
+.lang__modal {
+  display: flex;
+  padding: 1% 2%;
+  background-color: #fff;
+  align-items: center;
+  width: 100%;
+  gap: 3%;
+  margin-top: 2%;
+}
+
+.lang__modal li {
+  color: #344563;
+  background-color: #ebf0ee;
+  text-align: center;
+  padding: 0.6rem 0.5rem;
+  font-size: 0.8rem;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.modal__description {
+  color: #344563;
+  font-weight: 400;
+  line-height: 3vh;
+  font-size: calc(12px + 0.390625vw);
+  width: 93%;
+  overflow-y: hidden;
+  margin-top: 3%;
+  text-align: justify;
+}
+
 /* Desktop Version Starts Here */
 
 @media only screen and (min-width: 768px) {
@@ -890,6 +1007,121 @@ a:active {
     align-items: center;
     width: 20%;
   }
+
+  /* Modal section starts here */
+
+  .modal__container {
+    width: 100vw;
+    height: 100%;
+    background: #8193af;
+    position: fixed;
+    top: 0;
+    display: none;
+    backdrop-filter: blur(70px);
+  }
+
+  .modal__box {
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 1%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    overflow-y: scroll;
+  }
+
+  .close__modal {
+    top: 10px;
+    margin-left: 90%;
+    padding: 5px 9px;
+    border-radius: 0.5rem;
+    display: flex;
+    width: 6%;
+  }
+
+  .mob_close {
+    display: none;
+  }
+
+  .modal__image {
+    width: 95%;
+    border-radius: 0.5rem;
+    height: auto;
+    margin-top: 0;
+  }
+
+  .desk__btn__title {
+    display: flex;
+    margin-top: 2%;
+    width: 95%;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+
+  .modal__title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 4.2vh;
+    max-width: 60%;
+  }
+
+  .modal__btn__sec {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .color_btn_modal {
+    border-radius: 8px;
+    background: #36b37e;
+    color: #fff;
+    font-size: 95%;
+    font-weight: 500;
+    border: 1px solid white;
+    display: flex;
+    padding: 0.6rem 0.6rem;
+    align-items: center;
+    gap: 0.3rem;
+    height: 3rem;
+  }
+
+  .lang__modal {
+    display: flex;
+    padding: 0 2%;
+    background-color: #fff;
+    width: 60%;
+    align-items: center;
+    margin-right: 38%;
+    gap: 3%;
+    overflow-y: hidden;
+  }
+
+  .lang__modal li {
+    color: #344563;
+    background-color: #ebf0ee;
+    text-align: center;
+    padding: 0.6rem 0.8rem;
+    font-size: 13px;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+
+  .modal__description {
+    color: #344563;
+    font-weight: 400;
+    line-height: 1.7rem;
+    font-size: 1rem;
+    width: 95%;
+    overflow-y: hidden;
+    margin-top: 1%;
+    text-align: justify;
+  }
+
+  .mob {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
@@ -957,5 +1189,19 @@ a:active {
     display: flex;
     flex-direction: column;
     margin-top: 10%;
+  }
+
+  .modal__box {
+    width: 70%;
+  }
+
+  .close__modal {
+    top: 10px;
+    margin-left: 88%;
+    padding: 5px 9px;
+    border-radius: 0.5rem;
+    margin-bottom: 1%;
+    display: flex;
+    width: 6vw;
   }
 }
