@@ -10,7 +10,7 @@ function validate () {
       msg.classList.toggle('active')
       msg.reset()
     } else {
-      document.getElementById('chk__message').innerHTML =
+      document.getElementById('chk_message').innerHTML =
         'Invalid !!! Please enter the email in lower case'
       document.getElementById('chk__message').style.color = 'red'
       msg.classList.toggle('active')

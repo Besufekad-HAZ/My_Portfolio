@@ -302,8 +302,7 @@ a:active {
 }
 
 .abt__me {
-  background:
-    url(img/abt_buttom.svg) no-repeat bottom left,
+  background: url(img/abt_buttom.svg) no-repeat bottom left,
     url(img/abt_top.svg) no-repeat top right;
   background-size: inherit;
   display: flex;
@@ -704,8 +703,7 @@ a:active {
     font-size: 3.8em;
     line-height: 1em;
     letter-spacing: 1px;
-    animation:
-      typewriter 4s steps(80) 2s 1 normal both,
+    animation: typewriter 4s steps(80) 2s 1 normal both,
       blinkTextCursor 500ms infinite;
     white-space: nowrap;
     margin-right: 13%;
@@ -846,9 +844,8 @@ a:active {
   }
 
   .abt__me {
-    background:
-      url(img/illustration-about-me-2-desktop.svg) no-repeat bottom
-      left,
+    background: url(img/illustration-about-me-2-desktop.svg) no-repeat bottom
+        left,
       url(img/illustration\ about\ me\ desktop.svg) no-repeat top right;
     display: flex;
     flex-direction: column;
@@ -903,8 +900,7 @@ a:active {
   }
 
   .desk__contact__wrap {
-    background:
-      url(img/Frame-bottom-1.svg) no-repeat bottom left,
+    background: url(img/Frame-bottom-1.svg) no-repeat bottom left,
       url(img/Frame_bottom_1.5.svg) no-repeat bottom,
       url(img/Frame-bottom-2.svg) no-repeat bottom right;
     background-position: 0% 98%, 20% 95%, 100% 100%;
