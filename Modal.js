@@ -6,7 +6,7 @@ const projectsList = [
     projectTitle: 'Web Designer VS Web Developer',
     description:
       'The difference between a Web Designer and a Web Developer is their areas of job focus. For example, Web Designers are only responsible for designing the layout of a website and coding different design elements like graphics, drop-down menus, color schemes and category buttons.',
-    featuredImage: 'work-1.webp',
+    featuredImage: 'work-1.jpg',
     technologies: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
     linkToLive: 'https://besufekad-haz.github.io/My_Portfolio/',
     linkToSource: 'https://github.com/Besufekad-HAZ/My_Portfolio'
@@ -15,7 +15,7 @@ const projectsList = [
     projectTitle: 'What is ChatGPT and When was it Launched?',
     description:
       'ChatGPT (Chat Generative Pre-trained Transformer) is a chatbot launched by OpenAI in November 2022. It is built on top of OpenAIs GPT-3 family of large language models, and is fine-tuned (an approach to transfer learning) with both supervised and reinforcement learning techniques.',
-    featuredImage: 'work-2.webp',
+    featuredImage: 'work-2.jpg',
     technologies: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
     linkToLive: 'https://besufekad-haz.github.io/My_Portfolio/',
     linkToSource: 'https://github.com/Besufekad-HAZ/My_Portfolio'
@@ -24,7 +24,7 @@ const projectsList = [
     projectTitle: 'The Story Behind Lorem Ipsum',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
-    featuredImage: 'work-3.webp',
+    featuredImage: 'work-3.jpg',
     technologies: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
     linkToLive: 'https://besufekad-haz.github.io/My_Portfolio/',
     linkToSource: 'https://github.com/Besufekad-HAZ/My_Portfolio'
